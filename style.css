@@ -1,0 +1,121 @@
+#inputs,#books {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+#books {
+    margin-top: 2em;
+}
+
+.line {
+    flex-direction: row;
+    display: flex;
+}
+
+body {
+    background-color: rgb(90, 93, 94);
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(52, 56, 64);
+    margin-bottom: 1em;
+}
+
+.topnav h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+        font-size: 2.2em;
+    margin: 0.6em;
+}
+
+.field,#submit,.book {
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 0.45em;
+    margin: 0.15em;
+    color: rgb(34, 48, 56);
+}
+
+.field {
+    border: 0.3em solid rgb(34, 48, 56);
+    background-color: white;
+}
+
+.book {
+    border: 0.3em solid rgb(34, 48, 56);
+    background-color: lightyellow;
+    width: 23em;
+    margin-bottom: 0.5em;
+}
+
+.book .line {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+}
+
+.book p {
+    margin: 0em;
+    position: relative;
+}
+
+.delete_button {
+    position: absolute;
+    background: red;
+    color: white;
+    transform: translate(26.54em, -0.45em);
+    border: 0.15em solid black;
+    border-radius: 1em ;
+}
+
+.delete_button:hover {
+    background-color: rgb(193, 18, 18);
+}
+
+.delete_button:active {
+    background-color: darkred;
+}
+
+#submit {
+    border: 0.3em solid rgb(9, 90, 19);
+    background-color: rgb(84, 197, 123);
+}
+
+#submit:hover {
+    background-color: rgb(72, 170, 107);
+}
+
+#submit:active {
+    border: 0.3em solid rgb(4, 60, 10);
+    transform: translateY(0.05em);
+    background-color: rgb(60, 150, 90);
+}
+
+#title {
+    width: 17.15em;
+}
+
+#author {
+    width: 12em;
+}
+
+#pages {
+    width: 4.2em;
+}
+
+#read_group {
+    width: 4.2em;
+}
+
+#read {
+    width: 1.2em;
+    height: 1.2em;
+    accent-color: rgb(34, 48, 56);
+}
